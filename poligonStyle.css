@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.choose-units {
+    padding: 0.25vh;
+    background-color: #f3ff87;
+    align-self: flex-start;
+}
+
+.playground {
+    background-color: #f3ff87;
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.unit {
+    width: 4.46vh;
+    height: 4.46vh;
+    padding: 0.27vh;
+    background-size: 4.46vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cell {
+    width: 4.46vh;
+    height: 4.46vh;
+    padding: 0.27vh;
+    background-size: 4.46vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.active {
+    outline: 0.5vh solid red;
+    outline-offset: -0.5vh;
+}
+
+.field {
+    background-image: url('pixil-frame-0.png');
+}
+
+.home {
+    background-image: url('pixil-frame-1.png');
+}
+
+.choose-units .active{
+    outline: 0.5vh solid blue;
+    outline-offset: -0.5vh;
+}
